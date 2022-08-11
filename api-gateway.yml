@@ -14,10 +14,10 @@ spring:
           enabled: true
       routes:
         - id: parameter
-          uri: lb://parameter
+          uri: lb://api/parameter
           predicates:
             - Path=/parameter/**
         - id: person
-          uri: lb://person
+          uri: lb://api/parameter
           predicates:
             - Path=/person/**
