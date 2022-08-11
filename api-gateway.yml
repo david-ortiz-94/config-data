@@ -16,8 +16,8 @@ spring:
         - id: parameter
           uri: lb://api/parameter
           predicates:
-            - Path=/parameter/**
+            - Path=/api/parameter/**
         - id: person
-          uri: lb://api/parameter
+          uri: lb://api/person
           predicates:
-            - Path=/person/**
+            - Path=/api/person/**
