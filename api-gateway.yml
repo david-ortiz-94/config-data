@@ -14,6 +14,6 @@ spring:
           enabled: true
       routes:
         - id: parameter
-          uri: lb://parameter
+          uri: http://localhost:8087/
           predicates:
             - Path=/api/parameter/**
