@@ -17,3 +17,7 @@ spring:
           uri: http://localhost:8087/
           predicates:
             - Path=/api/parameter/**
+        - id: person
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/api/person/**
